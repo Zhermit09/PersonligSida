@@ -1,0 +1,175 @@
+
+body {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  background-color: #333333;
+  color: whitesmoke;
+  width: fit-content;
+}
+
+header {
+  padding: 0.84%;
+  font-size: 125%;
+  color: rgb(120, 10, 10);
+   border: 5px solid black;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Cinzel Decorative", cursive;
+  text-shadow: 0px 1px #e78f47;
+  font-size: 300%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 5%;
+  font-family: "Cinzel Decorative", cursive;
+  text-align: center;
+  font-size: 300%;
+  color: rgb(135, 32, 32);
+  text-shadow: 0px 1px #e78f47;
+  margin-bottom: -0.3%;
+}
+
+h3 {
+  color: rgb(120, 10, 10);
+  text-shadow: 0px 1px #e78f47;
+  padding-left: 0%;
+  font-size: 200%;
+  margin: 0%;
+  text-align: center;
+}
+
+nav {
+  width: 90%;
+  font-size: 180%;
+}
+
+td {
+  font-family: "Cinzel Decorative", cursive;
+  padding-left: 12.5%;
+  font-size: 70%;
+}
+
+nav li {
+  display: flex;
+  flex-wrap: nowrap;
+  font-family: "Cinzel Decorative", cursive;
+  display: inline-block;
+  margin-right: 1%;
+}
+
+article {
+  display: flex;
+  padding: 0%;
+  margin: 1.5%;
+  background-color: #252525 ;
+  border: 1px solid rgb(230, 189, 100);
+  border-radius: 15px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 150%;
+}
+
+.cha {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(230, 189, 100);
+  padding: 10px;
+  margin: 1%;
+  max-width: 18%;
+  min-width: 18%;
+  font-size: 150%;
+  background-image: url(bbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgcont {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid rgb(230, 189, 100);
+  border-radius: 13px;
+  background-image: url(mbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+table {
+  width: 100%;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+  border: 1px solid rgb(230, 189, 100);
+  border-radius: 13px;
+  color: #e78f47;
+  margin: 3%;
+  margin-top: 10%;
+  padding: 1%;
+  width: 90%;
+  align-self: center;
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.logo {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+header div img {
+  display: flex;
+  justify-content: flex-end;
+  width: 13%;
+  border: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(230, 189, 100);
+  text-align: center;
+  font-size: 80%;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Cinzel Decorative", cursive;
+  margin-top: 3%;
+  padding: 1%;
+  background-color: #151515;
+  background-image: url(footerB.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  
+}
+
+footer ul {
+  margin: 0%;
+  padding: 0%;
+    list-style: none;
+}
+
+footer ul li p{
+
+  margin: 0%;
+}
