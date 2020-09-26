@@ -1,0 +1,32 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  background-color: #333333;
+  color: whitesmoke;
+}
+
+
+header {
+  width: 100%;
+  padding: 0.84%;
+  font-size: 125%;
+  color: rgb(120, 10, 10);
+  border: 5px solid black;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Cinzel Decorative", cursive;
+  text-shadow: 0px 1px #e78f47;
+  font-size: 300%;
+  text-align: center;
+  margin: 0;
+}
+
+video{
+    width: 100%;
+ 
+}
