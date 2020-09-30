@@ -1,0 +1,81 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  background-color: #333333;
+  color: whitesmoke;
+}
+
+header {
+  padding: 0.84%;
+  font-size: 125%;
+  color: rgb(255, 0, 0);
+  z-index: 2;
+}
+
+h1 {
+  font-family: "Cinzel Decorative", cursive;
+  text-shadow: 0px 2px #ffaf6e;
+  font-size: 600%;
+  margin: 0;
+}
+
+.home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.home h1 {
+  text-align: center;
+}
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.75;
+}
+
+.videoCont {
+  position: center;
+  width: 100vw;
+}
+.color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(80, 0, 80);
+  z-index: 1;
+}
+
+a {
+  z-index: 2;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  font-size: 125%;
+  color: rgb(255, 0, 0);
+  font-family: "Cinzel Decorative", cursive;
+  text-shadow: 0px 1px #e78f47;
+  font-size: 300%;
+  margin: 0;
+  text-decoration: none;
+  background-color: rgb(51, 51, 51);
+  border: 5px solid #ffaf6e;
+  border-radius: 50px;
+  box-shadow: 3 3 black;
+}
+
+img {
+  z-index: 2;
+  position: absolute;
+  max-width: 10vw;
+  top: 1vh;
+  left: 1vw;
+}
