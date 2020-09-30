@@ -8,8 +8,8 @@ body {
 }
 
 header {
-  padding: 0.84%;
-  font-size: 125%;
+  padding: 10px;
+  font-size: 1.3rem;
   color: rgb(120, 10, 10);
   border: 5px solid black;
   background-image: url(bg.jpg);
