@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  padding: 0.84%;
+  padding: 10px;
   color: rgb(255, 0, 0);
   z-index: 2;
 }
@@ -32,9 +32,10 @@ h1 {
 
 .home h1 {
   text-align: center;
+
 }
 video {
-  opacity: 0.75;
+  opacity: 0.65;
   width: 3840px;
   height: 2160px;
 }
@@ -64,12 +65,23 @@ a {
   font-family: "Cinzel Decorative", cursive;
   text-shadow: 0px 2px 2px #e78f47;
   font-size: 3vw;
-  margin: 0;
+  margin-top: 10px;
   text-decoration: none;
   background-color: rgb(51, 51, 51);
   border: 5px solid #ffaf6e;
   border-radius: 50px;
-box-shadow: 0px 0px 10px red;
+  box-shadow: 0px 0px 10px red;
+}
+
+a:hover{
+  color: #e78f47;
+  text-shadow: 0px 3px 5px red;
+  font-size: 3.2vw;
+  background-color: rgb(48, 0, 63);
+  border: 5px solid #ffaf6e;
+  border-radius: 50px;
+  box-shadow: 0px 0px 15px red;
+  margin-top:4px;
 }
 
 img {
@@ -91,6 +103,18 @@ img {
     margin-top: 60vh;
     border: 3px solid #ffaf6e;
   }
+  a:active{
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  color: #e78f47;
+  text-shadow: 0px 3px 5px red;
+  font-size: 3.2vw;
+  background-color: rgb(48, 0, 63);
+  border: 5px solid #ffaf6e;
+  border-radius: 50px;
+  box-shadow: 0px 0px 15px red;
+  
+}
   img {
     min-width: 25vw;
   }

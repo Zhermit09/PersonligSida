@@ -1,3 +1,6 @@
+html{
+   scroll-behavior: smooth;
+}
 body {
   margin: 0%;
   padding: 0%;
@@ -5,6 +8,7 @@ body {
   background-color: #333333;
   color: whitesmoke;
   width: fit-content;
+
 }
 
 header {
@@ -25,7 +29,7 @@ header {
 .top a {
   font-family: "Cinzel Decorative", cursive;
   color: rgb(120, 10, 10);
-  text-shadow: 0px 2px 0px  #e78f47;
+  text-shadow: 0px 2px 0px #e78f47;
   font-size: 4vw;
   text-align: center;
   margin-bottom: 0;
@@ -63,6 +67,17 @@ nav {
 }
 nav a {
   font-size: 2vw;
+}
+
+.cha a:hover {
+  color: rgb(78, 0, 92);
+  text-shadow: 0px 1px 3px rgb(255, 0, 0);
+ 
+}
+
+nav a:hover {
+  color: black;
+  text-shadow: 0px 3px 5px red;
 }
 
 td {
@@ -195,6 +210,11 @@ footer li {
 footer ul li p {
   font-size: 1vw;
   margin: 0%;
+}
+
+footer a:hover{
+  color: #e78f47;
+  text-shadow: 0px 0px 30px red;
 }
 
 @media (max-width: 516px) {
