@@ -1,32 +1,33 @@
-html{
-background-color: #333333;
+html {
+  width: 100%;
 }
 
 body {
   margin: 0%;
   padding: 0%;
-  width: 100%;
+
   background-color: #333333;
   color: red;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .temp {
   display: flex;
   justify-content: space-evenly;
-  position: relative;
   top: 40vh;
 }
 
-a{
+a {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   font-size: 400%;
-  font-family:"Cinzel Decorative", cursive;
+  font-family: "Cinzel Decorative", cursive;
   text-decoration: none;
   color: red;
 }
-
 
 footer {
   background-color: #151515;
@@ -34,4 +35,150 @@ footer {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+article {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  margin: 1.5%;
+}
+
+.cha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  margin: 0%;
+  max-width: 23vw;
+  height: 100%;
+}
+.cha a {
+  font-size: 1.3vw;
+}
+
+h3 {
+  color: rgb(120, 10, 10);
+  text-shadow: 0px 1px #e78f47;
+  padding-left: 0%;
+  font-size: 2.5vw;
+  margin: 0%;
+  text-align: center;
+}
+
+.imgcont {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 5%;
+  border: 1px solid rgb(230, 189, 100);
+  border-radius: 13px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  border: 0px solid black;
+  border-radius: 20px;
+  width: 20vw;
+  opacity: 100%;
+  border: 0px solid black;
+  border-radius: 30%;
+  opacity: 0.8;
+  justify-self: center;
+}
+
+.background {
+  justify-self: center;
+  background-color: red;
+  border: 0px solid black;
+  border-radius: 30%;
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  border: 1px solid rgb(230, 189, 100);
+  border-radius: 1.5vw;
+  color: #e78f47;
+  margin: 3%;
+  margin-top: 10%;
+  padding: 1.5%;
+  width: 90%;
+  align-self: center;
+  font-family: "Cinzel Decorative", cursive;
+  background-color: #202020;
+}
+
+footer {
+  margin-top: 3vh;
+  min-height: 10vh;
+  border: 3px solid black;
+  background-color: #151515;
+}
+header {
+  background-color: #151515;
+  border: 2px solid black;
+}
+
+h1 {
+  font-family: "Cinzel Decorative", cursive;
+  text-shadow: 0px 2px 7px #ffaf6e;
+  font-size: 4vw;
+  margin: 0%;
+  text-align: center;
+}
+a {
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  color: rgb(255, 0, 0);
+  font-family: "Cinzel Decorative", cursive;
+  text-shadow: 0px 1px 7px #ffb867;
+  font-size: 3vw;
+  text-decoration: none;
+  background-color: #252525;
+  border: 5px solid #ffaf6e;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px red;
+}
+p {
+  font-size: 0.82vw;
+}
+
+@media (max-width: 425px) {
+  h1 {
+    text-shadow: 0px 1px #ffaf6e;
+    font-size: 10vw;
+  }
+  .imgcont {
+    width: 50vw;
+  }
+  .background {
+    display: flex;
+    width: 50vw;
+  }
+  img {
+    min-width: 50vw;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  a {
+    font-size: 6vw;
+    margin-top: 6vh;
+  }
+  .stats {
+  
+    width: 45vw;
+  }
+  p {
+    font-size: 3vw;
+    text-align: center;
+  }
+  .temp{
+    justify-content: space-around  }
 }
