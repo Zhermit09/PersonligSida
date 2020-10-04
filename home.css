@@ -72,6 +72,16 @@ a {
   box-shadow: 0px 0px 10px red;
 }
 
+
+
+img {
+  z-index: 2;
+  position: absolute;
+  max-width: 20%;
+  top: 1vh;
+  left: 1vw;
+}
+@media(min-width:426px){
 a:hover {
   color: #e78f47;
   text-shadow: 0px 3px 5px red;
@@ -82,15 +92,7 @@ a:hover {
   box-shadow: 0px 0px 15px red;
   margin-top: 4px;
 }
-
-img {
-  z-index: 2;
-  position: absolute;
-  max-width: 20%;
-  top: 1vh;
-  left: 1vw;
 }
-
 @media (max-width: 425px) {
   h1 {
     text-shadow: 0px 2px #ffaf6e;
@@ -106,7 +108,11 @@ img {
     font-size: 10vw;
     margin-top: 60vh;
     border: 3px solid #ffaf6e;
-    color: green;
+    color: #e78f47;
+    text-shadow: 0px 3px 5px red;
+    background-color: rgb(48, 0, 63);
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px red;
   }
   img {
     min-width: 25vw;

@@ -140,16 +140,15 @@ a {
   border-radius: 50px;
   box-shadow: 0px 0px 10px red;
 }
-
-a:hover{
-
-  color: #e78f47;
-  text-shadow: 0px 3px 5px red;
-  
-  background-color: rgb(48, 0, 63);
-  border: 5px solid #ffaf6e;
-  border-radius: 50px;
-  box-shadow: 0px 0px 15px red;
+@media(min-width: 426px) {
+  a:hover {
+    color: #e78f47;
+    text-shadow: 0px 3px 5px red;
+    background-color: rgb(48, 0, 63);
+    border: 5px solid #ffaf6e;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px red;
+  }
 }
 p {
   font-size: 0.82vw;
@@ -179,14 +178,22 @@ p {
     font-size: 6vw;
     margin-top: 6vh;
   }
+   a:active {
+    color: #e78f47;
+    text-shadow: 0px 3px 5px red;
+    background-color: rgb(48, 0, 63);
+    border: 5px solid #ffaf6e;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px red;
+  }
   .stats {
-  
     width: 45vw;
   }
   p {
     font-size: 3vw;
     text-align: center;
   }
-  .temp{
-    justify-content: space-around  }
+  .temp {
+    justify-content: space-around;
+  }
 }
